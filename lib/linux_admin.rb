@@ -34,6 +34,10 @@ require 'linux_admin/ip_address'
 require 'linux_admin/dns'
 require 'linux_admin/network_interface'
 require 'linux_admin/chrony'
+require 'linux_admin/file_operations'
+require 'linux_admin/apt'
+require 'linux_admin/curl'
+require 'linux_admin/echo'
 
 module LinuxAdmin
   class << self
